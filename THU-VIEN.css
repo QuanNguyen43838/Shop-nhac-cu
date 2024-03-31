@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 	box-sizing: border-box}
+.col-1 { width: 8.33%}
+.col-2{ width:16.66%}
+.col-3{ width: 25%}
+.col-3-spcc{ width: 25%;background-color: #fff;padding: 50px 0px}
+.col-4{ width: 33.33%}
+.col-5{ width: 41.66%}
+.col-6{ width: 50%}
+.col-6-shopcart{ width: 50%; background-color: #fff}
+.col-7{ width: 58.33%}
+.col-8{ width: 66.66%}
+.col-9{ width: 75%}
+.col-9-spcc{ width: 75%;background-color: #fff}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%}
+.row 
+{
+	display:flex; 
+	flex-wrap:wrap
+}
+[class*="col-"]
+{
+	padding: 15px;
+	/*border: 1px solid red*/
+}
+.p-0{ padding: 0}
+.p-5{ padding: 5px}
+.p-10{ padding: 10px}
+.pl-10{padding-left: 10px}
+.mt-50{ margin-top: 50px}
+
+.container{width: 80%; margin: auto;}
+.container-header{ width: 100%; 
+	margin: auto;
+	display: block;
+	background-color: #323334;
+	position: sticky !important;
+	position: -webkit-sticky;
+	top:0;
+	left:0;
+	z-index: 999999}
+
+
+.container-bg {width: 100%; margin: auto;background-color: #fff;padding-top:100px }
+
+.container-spcc-bg { width: 100%; margin:auto;background-color: #fff}
+.containersp { width: 90%;margin: auto;  }
+
+
+.container-shopcart {width: 100%; margin: auto;padding:25px 0px 25px 0px ; background-color: #323334;}
+.container-shopcart-bg {width: 100%; margin: auto; padding:0px  0px 150px 0px;background-color: #fff }
+
+.img-100
+{
+	width: 100%; 
+	height: auto
+}
+
+.bg-xam
+{
+	background: #F8F8F8
+}
+.mx-auto { margin:0 auto}/* dẩy box vào giữa (ngang)*/
+.text-center{ text-align: center} /*canh text vào giửa*/
+.text-right{ text-align: right}/*canh text qua phai*/
+/*-- thu vien cho bố cục flex*/
+.d-flex{ display: flex}
+/*--- đẩy các cột/ đối tượng trong flex theo chiều ngang*/
+.justify-center{ justify-content: center}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.justify-right{ justify-content: flex-end}
+
+/*------------- đẩy các cột canh theo chiều dọc----*/
+.align-items-center{ align-items: center}
+.align-items-end{ align-items: flex-end}
+
+/*-------------hướng đảo của cac cột trong row co flex----*/
+.row-revese {flex-direction: row-reverse}
+
+.btn-primary-outline
+{
+	border: 2px solid #828080;	
+		padding: 8px 16px;
+	transition: all 0.5s;
+	background-color: #Fff
+}
+.btn-primary-outline:hover
+{
+	background: #828080;
+	color: #fff
+}
+
+.text-primary { color: #FFCC00}
+.text-gold{ color: red}
+.text-white {color: #fff}
+
+.border{border-top: 3px #FFF solid;
+	border-color: #FFF;
+	border-top-style: solid}
